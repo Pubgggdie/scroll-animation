@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCROLL ANIMATION 2.0</title>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <link rel="stylesheet" href="input.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        .hero {
+            position: relative;
+            overflow: hidden;
+        }
+
+        #heroVideo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            /* Add any additional styling for your hero content here */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">PARABOY</a>
+        <a href="#home">Home</a>
+    </nav>
+    <div class="hero">
+        <video autoplay muted loop id="heroVideo">
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <h1 id="span1">wastelands</h1>
+        </div>
+    </div>
+    <section class="about">
+        <h1 style="text-transform: uppercase;">About</h1>
+    </section>
+    <section class="info">
+        <p class="info-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem id quos rem cupiditate illum voluptatem repellat! Architecto velit sequi quaerat?Lorem ipsum dolor sit amet.</p>
+        <p class="info-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem id quos rem cupiditate illum voluptatem repellat! Architecto velit sequi quaerat? Lorem ipsum dolor sit amet.</p>
+    </section>
+    <section class="hero-img">
+        <div class="row">
+        <div class="img img1"></div>
+        <div class="img img2"></div>
+        </div>
+    </section>
+    <section class="client">
+        <div class="client-container">
+          
+    </section>
+    
+    <section class="product-filter">
+
+            <p>Whispering pines.</p>
+            <p>Rusty bicycle.</p>
+            <p>Moonlit path.</p>
+            <p>Crackling fire.</p>
+            <p>Autumn leaves.</p>
+
+
+     
+    </section>
+    <section class="product">
+        <div class="row">
+            <div class="img img10"></div>
+            <div class="img img11"></div>
+            <div class="img img12"></div>
+          
+        </div>
+
+    </section>
+    <section class="about">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime neque consequuntur tenetur ex! Vero, illo culpa nemo mollitia odio suscipit, eius numquam ipsum maxime esse consectetur sint? Quis nobis perspiciatis provident, fugiat libero quos iure! Illo quod at alias nesciunt!</p>
+        <p class="text2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime neque consequuntur tenetur ex! Vero, illo culpa nemo mollitia odio suscipit, eius numquam ipsum maxime esse consectetur sint? Quis nobis perspiciatis provident, fugiat libero quos iure! Illo quod at alias nesciunt!</p>
+    </section>
+    <section class="about-img">
+        <div class="row">
+            <div class="img img13"></div>
+            <div class="img img14"></div>
+        </div>
+    </section>
+  <div class="text">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rerum fugit voluptas<br>laudantium officia voluptate eum accusamus, a nostrum repudiandae! Optio laudantium ratione necessitatibus.</p>
+  </div>
+    <section class="outro">
+        <div class="row">
+            <div class="img img15"></div>
+            <div class="img img16"></div>
+            
+        </div>
+    </section>
+   <footer>
+    <p>THANK YOU FOR VISITING ❤️
+    </p>
+   </footer>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
